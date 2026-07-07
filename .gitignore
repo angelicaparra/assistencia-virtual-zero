@@ -1,0 +1,12 @@
+# Seu ambiente virtual específico
+meu_ambiente/
+
+# Padrões gerais de ambiente virtual
+venv/
+.venv/
+
+# Arquivos temporários e caches
+voice.mp3
+__pycache__/
+*.pyc
+*.wav
