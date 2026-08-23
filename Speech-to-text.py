@@ -90,10 +90,10 @@ def respond(text):
         strTime = datetime.today().strftime("%H:%M")
         speak(f"Agora são {strTime}")
         
-    elif 'farmácia' in text or 'farmácia mais próxima' in text:
-        speak("Buscando a farmácia mais próxima no Google Maps.")
+    elif 'lanche' in text or 'lanche mais próximo' in text:
+        speak("Buscando o lanche mais próximo no Google Maps.")
         # Abre o navegador direto com o termo de busca baseado na localização do usuário
-        url = "https://www.google.com/maps/search/farmacia+mais+proxima/"
+        url = "https://www.google.com/maps/search/lanche+mais+proximo"
         webbrowser.get().open(url)
         
     elif 'desligar' in text or 'sair' in text:
